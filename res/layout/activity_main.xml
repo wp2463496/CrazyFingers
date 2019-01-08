@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+    <FrameLayout
+        android:id="@+id/text_ttodm"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <ImageButton
+            android:id="@+id/text_topBack"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:background="@drawable/top_btn_selector" />
+
+        <TextView
+            android:id="@+id/text_dwon"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:background="#ba151b"
+            android:gravity="center"
+            android:text="点我点我"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/text_play"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#ba151b"
+        android:gravity="center"
+        android:text="Go"
+        android:textColor="#ffffff"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/text_ci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_ttodm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="0次"
+        android:textColor="#ffffff"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/moemy_ci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:text="历史最高分：0次"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/text_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_ttodm"
+        android:layout_alignRight="@+id/text_ci"
+        android:layout_marginBottom="19dp"
+        android:text="10秒"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+</RelativeLayout>
